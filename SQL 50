@@ -1,1 +1,6 @@
-
+Basic Aggregate Functions
+620. Not Boring Movies
+                  My Answer- select * from cinema  where (id%2)<>0  &&  description <> "boring"   order by rating desc   
+                  Efficient Answer- select id, movie, description, rating from Cinema where mod(id,2)!=0 and description != 'boring' order by rating desc;
+1251. Average Selling Price 
+                  My Answer-
